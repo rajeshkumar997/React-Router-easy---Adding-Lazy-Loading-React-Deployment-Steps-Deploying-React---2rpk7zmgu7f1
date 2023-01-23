@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import Index from "./Pages/Index";
 import NoteFound from "./Pages/NotFound";
 
-export const AppRoutes = () => {
+const AppRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<Index />}></Route>
@@ -13,3 +13,5 @@ export const AppRoutes = () => {
          </Routes>
     )
 }
+
+export default AppRoutes;
